@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DUALQUIZZ</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <header>
+      <p><span class="logo">dualquizz</span> le nouveau site pour mettre à l'épreuve votre culture personnelle !</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li class="buttonInset2">Se connecter</li>
+        <li><a href="sign.html">S'inscrire</a></li>
+        <li>Qu'est-ce que DualQuizz ?</li>
+      </ul>
+    </nav>
+    <section>
+      <form class="form" action="traitement.php" method="post">
+        <table>
+          <fieldset class="log">
+            <legend>Connexion</legend>
+              <div class="logpseudo">
+                <label for="pseudo">Utilisateur:</label>
+                <input type="text" name="pseudo" placeholder="pseudo" size="30" maxlength="15" />
+              </div>
+              <div class="logpass">
+                <label for="pass">Mot de passe:</label>
+                <input type="password" name="pass" size="30" maxlength="10" />
+              </div>
+
+          </fieldset>
+        </table>
+      </form>
+    </section>
+    <footer>
+      <ul class="liste1">
+        <li>Nous contacter</li>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Snapchat</li>
+      </ul>
+      <ul class="liste2">
+        <li>Youtube</li>
+        <li>Tipee</li>
+        <li>Github</li>
+        <li>Google</li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+@font-face {
+  font-family:'texte1';
+  src: url('font/chicken.ttf');
+}
+@font-face {
+  font-family:'texte2';
+  src: url('font/florida.ttf');
+}
+@font-face {
+  font-family:'texte3';
+  src: url('font/grease.ttf');
+}
+body{
+  background-color: rgb(255,80,0);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'texte2';
+}
+header{
+  background-color: rgb(255,139,0);
+  border: 1px solid black;
+  box-shadow: 4px 4px 20px black;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+}
+.logo{
+  font-family: 'texte1';
+  text-transform: uppercase;
+  font-size: 50px;
+}
+nav{
+  background-color: rgb(255,139,0);
+  border: 1px solid black;
+  box-shadow: 4px 4px 20px black;
+  border-radius: 20px;
+  text-align: left;
+  width: 20%;
+  height:400px;
+}
+.buttonInset1{
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black inset;
+  width: 70px;
+  text-align: center;
+}
+.buttonInset2{
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black inset;
+  width: 108px;
+  text-align: center;
+}
+.buttonInset3{
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black inset;
+  width: 70px;
+  text-align: center;
+}
+.buttonInset1{
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black inset;
+  width: 70px;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 79.80%;
+}
+.welcome{
+  text-transform: uppercase;
+  font-family: 'texte3';
+}
+.title{
+  font-family: 'texte1';
+  text-transform: uppercase;
+  font-size: 150px;
+}
+footer{
+  background-color: rgb(255,139,0);
+  border: 1px solid black;
+  box-shadow: 4px 4px 20px black;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.log{
+  display: block;
+}
