@@ -1,3 +1,4 @@
+/*------------------------------------------------Police de texte------------------------------------------------------------------*/
 @font-face {
   font-family:'texte1';
   src: url('font/chicken.ttf');
@@ -10,6 +11,7 @@
   font-family:'texte3';
   src: url('font/grease.ttf');
 }
+/*-------------------------------------------------------All----------------------------------------------------------------------*/
 body{
   background-color: rgb(255,80,0);
   display: flex;
@@ -38,51 +40,8 @@ nav{
   width: 20%;
   height:400px;
 }
-.buttonInset1{
-  border: 1px solid black;
-  border-radius: 40px;
-  box-shadow: 2px 2px 10px black inset;
-  width: 70px;
-  text-align: center;
-}
-.buttonInset2{
-  border: 1px solid black;
-  border-radius: 40px;
-  box-shadow: 2px 2px 10px black inset;
-  width: 108px;
-  text-align: center;
-}
-.buttonInset3{
-  border: 1px solid black;
-  border-radius: 40px;
-  box-shadow: 2px 2px 10px black inset;
-  width: 70px;
-  text-align: center;
-}
-.buttonInset1{
-  border: 1px solid black;
-  border-radius: 40px;
-  box-shadow: 2px 2px 10px black inset;
-  width: 70px;
-  text-align: center;
-}
 ul{
   list-style-type: none;
-}
-section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 79.80%;
-}
-.welcome{
-  text-transform: uppercase;
-  font-family: 'texte3';
-}
-.title{
-  font-family: 'texte1';
-  text-transform: uppercase;
-  font-size: 150px;
 }
 footer{
   background-color: rgb(255,139,0);
@@ -93,6 +52,73 @@ footer{
   display: flex;
   justify-content: space-around;
 }
+/*----------------------------------------------------Accueil--------------------------------------------------------------------*/
+#accueil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 79.80%;
+}
+.buttonInset1{
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black inset;
+  width: 70px;
+  text-align: center;
+}
+/*------------------------------------------------------log--------------------------------------------------------------------------------*/
+#log{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 79.80%;
+  }
 .log{
   display: block;
+  justify-content: flex-end;
+}
+.buttonInset2{
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black inset;
+  width: 108px;
+  text-align: center;
+}
+/*----------------------------------------------Ce-qu'-est-DuelQuizz------------------------------------------------------------------*/
+#keskequizz{
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 79.8%;
+}
+.buttonInset4{
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black inset;
+  width: 180px;
+  text-align: center;
+}
+/*----------------------------------------------------sign---------------------------------------------------------------------------------*/
+.buttonInset3{
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black inset;
+  width: 70px;
+  text-align: center;
+}
+.welcome{
+  text-transform: uppercase;
+  font-family: 'texte3';
+}
+.title{
+  font-family: 'texte1';
+  text-transform: uppercase;
+  font-size: 150px;
+}
+#sign{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 79.80%;
 }
