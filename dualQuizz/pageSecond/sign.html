@@ -18,34 +18,20 @@
       </ul>
     </nav>
     <section id="sign">
-      <form class="sign" action="traitement.php" method="post">
-        <fieldset class="signin">
-          <legend>Inscription</legend>
-          <div>
-              <label for="nom">Nom</label>
-              <input type="text" name="nom" placeholder="Nom" size="20" maxlength="10" />
-          </div>
-          <div>
-              <label for="prenom">Prénom</label>
-              <input type="text" name="prenom" placeholder="Prénom" size="20" maxlength="10" />
-          </div>
-          <div>
-              <label for="pass">Entrez un mot de passe</label>
-              <input type="password" name="pass" size="20" maxlength="10" />
-          </div>
-          <div>
-              <label for="pass">Réécrire le mot de passe</label>
-              <input type="password" name="pass" size="20" maxlength="10" />
-          </div>
-          <div>
-              <label for="email">Votre adresse email</label>
-              <input type="text" name="mail" placeholder="Adresse Email" size="20" maxlength="50" />
-          </div>
-          <div>
-              <input type="submit" value="envoyer" />
-          </div>
-        </fieldset>
-      </form>
+        <form class="sign" action="traitement.php" method="post">
+          <fieldset>
+            <legend>Inscription</legend>
+            <ul>
+                <li><label for="nom">Nom</label><input type="text" name="nom" placeholder="Nom" size="20" maxlength="10" /></li>
+                <li><label for="prenom">Prénom</label><input type="text" name="prenom" placeholder="Prénom" size="20" maxlength="10" /></li>
+                <li><label for="pseudo">Pseudo</label><input type="text" name="pseudo" placeholder="Nom" size="20" maxlength="15" /></li>
+                <li><label for="pass">Entrez un mot de passe</label><input type="password" name="pass" size="20" maxlength="10" /></li>
+                <li><label for="pass">Réécrire le mot de passe</label><input type="password" name="pass" size="20" maxlength="10" /></li>
+                <li><label for="mail">Votre adresse email</label><input type="text" name="mail" placeholder="Adresse Email" size="20" maxlength="50" /></li>
+                <input type="submit" value="envoyer" />
+            </ul>
+          </fieldset>
+        </form>
     </section>
     <footer>
       <ul class="liste1">

@@ -21,18 +21,11 @@
       <form class="form" action="traitement.php" method="post">
           <fieldset class="log">
             <legend>Connexion</legend>
-              <div class="logpseudo">
-                <label for="pseudo">Utilisateur:</label>
-                <input type="text" name="pseudo" placeholder="pseudo" size="30" maxlength="15" />
-              </div>
-              <div class="logpass">
-                <label for="pass">Mot de passe:</label>
-                <input type="password" name="pass" size="30" maxlength="10" />
-              </div>
-              <div class="logco">
+              <ul>
+                <li><label for="pseudo">Utilisateur:</label><input type="text" name="pseudo" placeholder="pseudo" size="30" maxlength="15" /></li>
+                <li><label for="pass">Mot de passe:</label><input type="password" name="pass" size="30" maxlength="10" /></li>
+              </ul>
                 <input type="submit" value="Se connecter" />
-              </div>
-
           </fieldset>
       </form>
     </section>
